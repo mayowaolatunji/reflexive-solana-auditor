@@ -1,6 +1,6 @@
 # RSA-Judge — Review & Severity Adjudication Engine
 
-RSA-Judge is an advanced evaluation framework designed to replicate the decision-making process of elite smart contract security contest judges. It is built to rigorously assess submitted findings and determine whether they withstand the level of scrutiny applied in top-tier audits and competitive security reviews.
+RSA-Judge is an advanced evaluation framework designed to replicate the decision-making process of elite smart contract security contest judges. It is built to rigorously assess submitted findings and determine whether they withstand the level of scrutiny applied in top-tåier audits and competitive security reviews.
 
 This engine does not reward surface-level correctness, theoretical exploits, or loosely defined risk. Instead, it enforces a strict standard centered on provable impact, technical precision, and adherence to scope, invariants, and documented protocol behavior.
 
@@ -12,7 +12,7 @@ This engine does not reward surface-level correctness, theoretical exploits, or 
 >
 > Review all findings listed in `validFindings.md` and determine which ones should be **Invalidated, Upheld, or Regraded (Severity Adjusted)**.
 >
-> Your evaluation must strictly follow standard judging criteria and available project context. In addition to the findings themselves, you MUST reference:
+> Your evaluation must strictly follow standard judging criteria and the available project context. In addition to the findings themselves, you MUST reference:
 >
 > * The **scope definition** (e.g., `scope.md`, `out_of_scope.md`, or equivalent)
 > * Any **previous audit reports** or known issue documents provided in the repository
@@ -238,7 +238,7 @@ For findings classified as **High or Critical**, you MUST explicitly reason abou
 * If no meaningful value extraction → **cannot exceed Low**
 
 > **Important:**
-> A finding cannot be classified as **High or Critical without clearly demonstrating scale of impact.**
+> A finding cannot be classified as **High or Critical without clearly demonstrating the scale of impact.**
 
 ---
 
